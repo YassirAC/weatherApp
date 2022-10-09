@@ -14,3 +14,35 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
+
+.location{
+    height: 3000px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.temperature{
+    height: 3000px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.degree-section{
+    display: flex;
+    align-items: center;
+}
+
+.degree-section span {
+    margin: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.degree-section h2{
+    font-size:56px
+}
